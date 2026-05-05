@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        Vendor Matchmaker AI
+    </title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <div class="hero-section">
+
+        <h1>
+            Vendor Matchmaker AI
+        </h1>
+
+        <p>
+            AI Powered Vendor Recommendation System
+        </p>
+
+    </div>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="city"
+            placeholder="Enter City"
+        >
+
+        <input
+            type="number"
+            id="budget"
+            placeholder="Enter Budget"
+        >
+
+        <input
+            type="text"
+            id="query"
+            placeholder="Describe Event Preference"
+        >
+
+        <button onclick="findVendors()">
+
+            Find Vendors
+
+        </button>
+
+    </div>
+
+    <div id="results"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
